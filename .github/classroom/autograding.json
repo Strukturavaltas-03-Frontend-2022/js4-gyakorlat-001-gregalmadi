@@ -1,24 +1,14 @@
 {
   "tests": [
     {
-      "name": "test01",
+      "name": "test",
       "setup": "npm install",
-      "run": "npm run test01",
+      "run": "npm run test ./13-promise",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
-    },
-    {
-      "name": "test02",
-      "setup": "npm install",
-      "run": "npm run test02",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
+      "points": 10
     }
   ]
 }
