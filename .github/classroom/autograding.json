@@ -1,6 +1,16 @@
 {
   "tests": [
     {
+      "name": "test",
+      "setup": "npm install",
+      "run": "npm run test ./13-promise",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+    /*{
       "name": "test01",
       "setup": "npm install",
       "run": "npm run test01",
@@ -19,6 +29,6 @@
       "comparison": "included",
       "timeout": 10,
       "points": 5
-    }
+    }*/
   ]
 }
